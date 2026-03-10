@@ -107,6 +107,143 @@ const mahindraData = [
         ]
     },
 
+
+
+
+// MODEL: BOLERO NEO PLUS
+{
+    id: 'bolero-neo-plus',
+    name: 'Bolero Neo Plus',
+    icon: 'fas fa-star',
+    subtitle: '2.2L Diesel | Premium Power',
+    variants: [
+        // EXISTING
+        {
+            id: 'Plus',
+            name: 'Plus',
+            price: '₹10.90 - 11.95 Lakh',
+            engine: { type: '2.2L Diesel', power: '120 bhp', torque: '280 Nm', transmission: '5/6-MT' },
+            features: { ... }
+        },
+        
+        // ✅ NEW VARIANT P4
+        {
+            id: 'P4',
+            name: 'P4',
+            price: '₹12.50 - 13.00 Lakh',
+            engine: { 
+                type: '2.2L Diesel', 
+                power: '125 bhp',           // Slightly higher than Plus
+                torque: '290 Nm',           // Slightly higher than Plus
+                transmission: '6-MT'        // Better transmission
+            },
+            features: {
+                'Exterior': [
+                    '17" Premium alloy wheels',
+                    'LED Projector headlamps',
+                    'LED DRLs + Fog lights',
+                    'Panoramic sunroof',
+                    'Roof rails with crossbars',
+                    'Side steps',
+                    'Rear spoiler'
+                ],
+                'Interior': [
+                    '8" Touchscreen',
+                    'Dual-zone automatic AC',
+                    'Rear climate control',
+                    'Leatherette seats',
+                    'Ventilated front seats',
+                    'Heated seats (driver)',
+                    'All power windows',
+                    'Rear wiper & washer'
+                ],
+                'Safety': [
+                    '6 SRS Airbags',
+                    'ABS + EBD + TCS',
+                    'Electronic stability control',
+                    'Hill hold assist',
+                    'Hill descent control',
+                    '360-degree camera',
+                    'Parking sensors F&R',
+                    'TPMS display'
+                ],
+                'Tech': [
+                    '8" Touchscreen display',
+                    'Wireless Android Auto',
+                    'Apple CarPlay wireless',
+                    'Steering-mounted controls',
+                    'Multi USB Type-C ports',
+                    'Wireless phone charger',
+                    'Premium audio system'
+                ]
+            }
+        },
+
+        // ✅ NEW VARIANT P10
+        {
+            id: 'P10',
+            name: 'P10',
+            price: '₹14.00 - 14.99 Lakh',
+            engine: { 
+                type: '2.2L Diesel mHawk', 
+                power: '130 bhp',           // Higher power
+                torque: '300 Nm',           // Higher torque
+                transmission: '6-AT'        // Automatic transmission
+            },
+            features: {
+                'Exterior': [
+                    '18" Diamond-cut alloy wheels',
+                    'LED Projector headlamps',
+                    'LED DRLs + Fog lights + Cornering',
+                    'Panoramic glass sunroof',
+                    'Roof rails with crossbars',
+                    'Side steps',
+                    'Rear spoiler',
+                    'Auto headlamps & wipers'
+                ],
+                'Interior': [
+                    '10.25" Touchscreen display',
+                    'Dual-zone automatic AC',
+                    'Rear climate control',
+                    'Premium leather upholstery',
+                    'Ventilated front seats',
+                    'Heated front seats',
+                    'Power adjustable driver seat',
+                    'All power windows',
+                    'Rear wiper & washer',
+                    'Rear defogger',
+                    'Ambient lighting (multi-color)'
+                ],
+                'Safety': [
+                    '7 SRS Airbags',
+                    'ABS + EBD + TCS',
+                    'Electronic stability control',
+                    'Hill hold & descent assist',
+                    '360-degree camera with parking grid',
+                    'Front & rear parking sensors',
+                    'Level 2 ADAS (optional)',
+                    'Auto-dimming IRVM',
+                    'TPMS with display',
+                    'Electronic parking brake'
+                ],
+                'Tech': [
+                    '10.25" HD Touchscreen',
+                    'Connected car platform',
+                    'Wireless Android Auto/Apple CarPlay',
+                    'OTA software updates',
+                    'Steering-mounted controls',
+                    'Multi USB Type-C ports',
+                    'Wireless phone charger (65W)',
+                    'Premium Bose audio system',
+                    'Voice commands & Alexa integration'
+                ]
+            }
+        }
+    ]
+}
+
+    
+
     // ============================================================
     // MODEL 3: XUV 3XO
     // ============================================================

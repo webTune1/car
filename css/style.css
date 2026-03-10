@@ -36,11 +36,13 @@ header h1 {
     font-size: 1.6rem;
     font-weight: 800;
     margin-bottom: 0.3rem;
+    letter-spacing: -0.5px;
 }
 
 header p {
     font-size: 0.85rem;
     opacity: 0.9;
+    font-weight: 500;
 }
 
 /* ===== TAB NAVIGATION ===== */
@@ -71,13 +73,19 @@ header p {
     font-size: 0.75rem;
     cursor: pointer;
     white-space: nowrap;
-    transition: 0.3s;
+    transition: 0.3s ease;
     flex-shrink: 0;
+}
+
+.tab-btn:hover {
+    box-shadow: 0 2px 8px rgba(211, 47, 47, 0.2);
+    transform: translateY(-2px);
 }
 
 .tab-btn.active {
     background: var(--primary);
     color: white;
+    box-shadow: 0 4px 12px rgba(211, 47, 47, 0.3);
 }
 
 .tab-btn:active {
@@ -86,7 +94,7 @@ header p {
 
 /* ===== CONTAINER ===== */
 .container {
-    padding: 0 1rem;
+    padding: 0 1rem 2rem 1rem;
     max-width: 100%;
 }
 
@@ -130,11 +138,13 @@ header p {
     font-size: 1.3rem;
     font-weight: 700;
     margin-bottom: 0.2rem;
+    letter-spacing: -0.5px;
 }
 
 .model-title p {
     font-size: 0.75rem;
     opacity: 0.9;
+    font-weight: 500;
 }
 
 /* ===== VARIANT TABS ===== */
@@ -162,14 +172,20 @@ header p {
     font-size: 0.8rem;
     cursor: pointer;
     white-space: nowrap;
-    transition: 0.2s;
+    transition: 0.2s ease;
     flex-shrink: 0;
+}
+
+.variant-tab:hover {
+    border-color: var(--primary);
+    color: var(--primary);
 }
 
 .variant-tab.active {
     background: var(--primary);
     color: white;
     border-color: var(--primary);
+    box-shadow: 0 2px 8px rgba(211, 47, 47, 0.2);
 }
 
 /* ===== VARIANT CONTENT ===== */
@@ -184,8 +200,12 @@ header p {
 }
 
 @keyframes fadeIn {
-    from { opacity: 0; }
-    to { opacity: 1; }
+    from { 
+        opacity: 0; 
+    }
+    to { 
+        opacity: 1; 
+    }
 }
 
 /* ===== PRICE BOX ===== */
@@ -199,6 +219,7 @@ header p {
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
     font-size: 1.1rem;
+    box-shadow: 0 4px 12px rgba(255, 152, 0, 0.2);
 }
 
 /* ===== ENGINE BOX ===== */
@@ -208,6 +229,7 @@ header p {
     padding: 1rem;
     border-radius: 8px;
     margin-bottom: 1rem;
+    box-shadow: 0 4px 12px rgba(211, 47, 47, 0.2);
 }
 
 .engine-box h4 {
@@ -230,6 +252,7 @@ header p {
     padding: 0.8rem;
     border-radius: 6px;
     border: 1px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
 }
 
 .spec-item label {
@@ -239,6 +262,7 @@ header p {
     margin-bottom: 0.3rem;
     text-transform: uppercase;
     letter-spacing: 0.3px;
+    font-weight: 600;
 }
 
 .spec-item value {
@@ -265,25 +289,44 @@ header p {
 
 .feature-group {
     background: #f8f9fa;
-    border-left: 4px solid var(--primary);
-    border-radius: 6px;
-    padding: 0.9rem;
-    margin-bottom: 0.8rem;
+    border-left: 5px solid var(--primary);
+    border-radius: 8px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    transition: all 0.2s ease;
 }
 
+.feature-group:hover {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    background: #f0f0f0;
+    transform: translateY(-2px);
+}
+
+/* ===== FEATURE CATEGORY TITLE (MAIN STYLING) ===== */
 .feature-group h5 {
     font-family: 'Poppins', sans-serif;
-    font-size: 0.85rem;
-    font-weight: 700;
+    font-size: 1rem;
+    font-weight: 800;
     color: var(--primary);
-    margin-bottom: 0.6rem;
+    margin-bottom: 0.8rem;
     display: flex;
     align-items: center;
-    gap: 0.5rem;
+    gap: 0.6rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    line-height: 1.4;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid var(--secondary);
 }
 
 .feature-group h5 i {
-    font-size: 1rem;
+    font-size: 1.1rem;
+    color: var(--secondary);
+    min-width: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .feature-group ul {
@@ -291,11 +334,17 @@ header p {
 }
 
 .feature-group li {
-    padding: 0.4rem 0;
-    font-size: 0.8rem;
+    padding: 0.6rem 0;
+    font-size: 0.85rem;
     color: var(--text);
-    padding-left: 1.2rem;
+    padding-left: 1.5rem;
     position: relative;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.feature-group li:last-child {
+    margin-bottom: 0;
 }
 
 .feature-group li::before {
@@ -303,8 +352,11 @@ header p {
     position: absolute;
     left: 0;
     color: var(--secondary);
-    font-weight: 700;
-    font-size: 0.9rem;
+    font-weight: 800;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* ===== DIVIDER ===== */
@@ -328,6 +380,11 @@ footer {
 footer p {
     margin: 0.3rem 0;
     opacity: 0.9;
+    font-weight: 500;
+}
+
+footer strong {
+    font-weight: 700;
 }
 
 /* ===== HIDDEN CLASS ===== */
@@ -335,18 +392,46 @@ footer p {
     display: none;
 }
 
-/* ===== RESPONSIVE ===== */
-@media (max-width: 480px) {
+/* ===== SCROLLBAR STYLING ===== */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--primary);
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #b71c1c;
+}
+
+/* ===== RESPONSIVE DESIGN ===== */
+@media (max-width: 768px) {
     header h1 {
-        font-size: 1.3rem;
+        font-size: 1.5rem;
     }
 
     .model-header {
         padding: 1rem;
+        gap: 0.8rem;
     }
 
     .model-icon {
-        font-size: 1.5rem;
+        font-size: 1.8rem;
+    }
+
+    .model-title h2 {
+        font-size: 1.1rem;
+    }
+
+    .model-title p {
+        font-size: 0.7rem;
     }
 
     .engine-specs {
@@ -362,4 +447,249 @@ footer p {
         padding: 0.4rem 0.7rem;
         font-size: 0.7rem;
     }
-  }
+
+    .feature-group h5 {
+        font-size: 0.95rem;
+        gap: 0.4rem;
+    }
+
+    .feature-group h5 i {
+        font-size: 1rem;
+    }
+
+    .feature-group li {
+        font-size: 0.8rem;
+        padding: 0.5rem 0;
+        padding-left: 1.3rem;
+    }
+
+    .feature-group {
+        padding: 0.9rem;
+        margin-bottom: 0.8rem;
+    }
+}
+
+@media (max-width: 480px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-size: 14px;
+    }
+
+    header {
+        padding: 1.2rem 1rem;
+        margin-bottom: 0.8rem;
+    }
+
+    header h1 {
+        font-size: 1.3rem;
+        margin-bottom: 0.2rem;
+    }
+
+    header p {
+        font-size: 0.8rem;
+    }
+
+    .tab-nav {
+        padding: 0.6rem 0.8rem;
+        gap: 0.3rem;
+    }
+
+    .tab-btn {
+        padding: 0.5rem 0.8rem;
+        font-size: 0.7rem;
+        border-radius: 40px;
+    }
+
+    .container {
+        padding: 0 0.8rem 1.5rem 0.8rem;
+    }
+
+    .model-card {
+        margin-bottom: 1rem;
+        border-radius: 10px;
+    }
+
+    .model-header {
+        padding: 1rem 1rem;
+        gap: 0.8rem;
+    }
+
+    .model-icon {
+        font-size: 1.5rem;
+    }
+
+    .model-title h2 {
+        font-size: 1rem;
+        margin-bottom: 0.1rem;
+    }
+
+    .model-title p {
+        font-size: 0.7rem;
+    }
+
+    .variant-tabs {
+        padding: 0.6rem 0.6rem;
+        gap: 0.25rem;
+    }
+
+    .variant-tab {
+        padding: 0.4rem 0.6rem;
+        font-size: 0.65rem;
+        border-radius: 4px;
+    }
+
+    .variant-content {
+        padding: 1rem 0.8rem;
+    }
+
+    .price-box {
+        padding: 0.9rem;
+        font-size: 1rem;
+        border-radius: 6px;
+        margin-bottom: 0.8rem;
+    }
+
+    .engine-box {
+        padding: 0.9rem;
+        border-radius: 6px;
+        margin-bottom: 0.8rem;
+    }
+
+    .engine-box h4 {
+        font-size: 0.85rem;
+        margin-bottom: 0.6rem;
+    }
+
+    .engine-specs {
+        grid-template-columns: 1fr;
+        gap: 0.6rem;
+    }
+
+    .spec-item {
+        padding: 0.7rem;
+        border-radius: 4px;
+    }
+
+    .spec-item label {
+        font-size: 0.6rem;
+        margin-bottom: 0.2rem;
+    }
+
+    .spec-item value {
+        font-size: 0.9rem;
+    }
+
+    .features-header {
+        font-size: 0.85rem;
+        margin: 0.8rem 0 0.6rem 0;
+        letter-spacing: 0.3px;
+    }
+
+    .features-section {
+        margin-bottom: 0.8rem;
+    }
+
+    .feature-group {
+        background: #f8f9fa;
+        border-left: 4px solid var(--primary);
+        border-radius: 6px;
+        padding: 0.8rem;
+        margin-bottom: 0.7rem;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+    }
+
+    .feature-group:hover {
+        box-shadow: 0 3px 6px rgba(0,0,0,0.08);
+    }
+
+    /* ===== MOBILE FEATURE TITLE ===== */
+    .feature-group h5 {
+        font-family: 'Poppins', sans-serif;
+        font-size: 0.9rem;
+        font-weight: 800;
+        color: var(--primary);
+        margin-bottom: 0.6rem;
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        text-transform: uppercase;
+        letter-spacing: 0.4px;
+        line-height: 1.3;
+        padding-bottom: 0.4rem;
+        border-bottom: 2px solid var(--secondary);
+    }
+
+    .feature-group h5 i {
+        font-size: 1rem;
+        color: var(--secondary);
+        min-width: 20px;
+    }
+
+    .feature-group ul {
+        list-style: none;
+    }
+
+    .feature-group li {
+        padding: 0.5rem 0;
+        font-size: 0.8rem;
+        color: var(--text);
+        padding-left: 1.2rem;
+        position: relative;
+        font-weight: 500;
+        line-height: 1.4;
+    }
+
+    .feature-group li::before {
+        content: '✓';
+        position: absolute;
+        left: 0;
+        color: var(--secondary);
+        font-weight: 800;
+        font-size: 0.95rem;
+    }
+
+    .divider {
+        height: 4px;
+        margin: 1rem 0;
+        border-radius: 2px;
+    }
+
+    footer {
+        padding: 1.2rem 0.8rem;
+        margin-top: 1.5rem;
+        font-size: 0.7rem;
+    }
+
+    footer p {
+        margin: 0.2rem 0;
+    }
+}
+
+@media (max-width: 360px) {
+    header h1 {
+        font-size: 1.1rem;
+    }
+
+    .tab-btn {
+        font-size: 0.65rem;
+        padding: 0.4rem 0.6rem;
+    }
+
+    .model-title h2 {
+        font-size: 0.9rem;
+    }
+
+    .feature-group h5 {
+        font-size: 0.85rem;
+    }
+
+    .feature-group li {
+        font-size: 0.75rem;
+        padding-left: 1rem;
+    }
+}

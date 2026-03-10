@@ -28,7 +28,7 @@ header {
     padding: 2rem 1.2rem;
     text-align: center;
     box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-    margin-bottom: 1rem;
+    margin-bottom: 0;
 }
 
 header h1 {
@@ -37,7 +37,7 @@ header h1 {
     font-weight: 800;
     margin-bottom: 0.5rem;
     letter-spacing: -1px;
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
 }
 
 header p {
@@ -54,11 +54,12 @@ header p {
     padding: 1rem;
     background: white;
     overflow-x: auto;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    box-shadow: none;
     position: sticky;
     top: 0;
     z-index: 100;
     scrollbar-width: none;
+    border-bottom: 1px solid #e0e0e0;
 }
 
 .tab-nav::-webkit-scrollbar {
@@ -77,13 +78,13 @@ header p {
     white-space: nowrap;
     transition: 0.3s;
     flex-shrink: 0;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    box-shadow: none;
 }
 
 .tab-btn.active {
     background: var(--primary);
     color: white;
-    box-shadow: 0 4px 12px rgba(211, 47, 47, 0.3);
+    box-shadow: 0 2px 6px rgba(211, 47, 47, 0.2);
 }
 
 .tab-btn:active {
@@ -99,10 +100,10 @@ header p {
 /* ===== MODEL CARD ===== */
 .model-card {
     background: var(--card);
-    border-radius: 16px;
+    border-radius: 12px;
     margin-bottom: 1.5rem;
     overflow: hidden;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
     animation: slideIn 0.4s ease;
 }
 
@@ -148,10 +149,10 @@ header p {
 /* ===== VARIANT TABS ===== */
 .variant-tabs {
     display: flex;
-    gap: 0.5rem;
-    padding: 1rem;
+    gap: 0.4rem;
+    padding: 0.8rem;
     background: #f8f9fa;
-    border-bottom: 2px solid #e0e0e0;
+    border-bottom: none;
     overflow-x: auto;
     scrollbar-width: none;
 }
@@ -164,28 +165,27 @@ header p {
     background: white;
     border: 2px solid #ddd;
     color: var(--gray);
-    padding: 0.7rem 1.1rem;
-    border-radius: 8px;
+    padding: 0.6rem 1rem;
+    border-radius: 6px;
     font-weight: 700;
-    font-size: 0.9rem;
+    font-size: 0.85rem;
     cursor: pointer;
     white-space: nowrap;
     transition: 0.2s;
     flex-shrink: 0;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    box-shadow: none;
 }
 
 .variant-tab.active {
     background: var(--primary);
     color: white;
     border-color: var(--primary);
-    box-shadow: 0 4px 8px rgba(211, 47, 47, 0.2);
-    transform: translateY(-2px);
+    box-shadow: 0 2px 4px rgba(211, 47, 47, 0.15);
 }
 
 /* ===== VARIANT CONTENT ===== */
 .variant-content {
-    padding: 1.5rem;
+    padding: 1.2rem;
     display: none;
 }
 
@@ -203,62 +203,62 @@ header p {
 .price-box {
     background: linear-gradient(135deg, var(--secondary) 0%, #fb8c00 100%);
     color: white;
-    padding: 1.2rem;
-    border-radius: 12px;
+    padding: 1.1rem;
+    border-radius: 8px;
     text-align: center;
-    margin-bottom: 1.2rem;
+    margin-bottom: 1rem;
     font-family: 'Poppins', sans-serif;
     font-weight: 800;
-    font-size: 1.5rem;
-    box-shadow: 0 4px 12px rgba(255, 152, 0, 0.3);
-    letter-spacing: 0.5px;
+    font-size: 1.4rem;
+    box-shadow: 0 2px 8px rgba(255, 152, 0, 0.2);
+    letter-spacing: 0.3px;
 }
 
 /* ===== ENGINE BOX ===== */
 .engine-box {
     background: linear-gradient(135deg, var(--primary) 0%, #d32f2f 100%);
     color: white;
-    padding: 1.2rem;
-    border-radius: 12px;
-    margin-bottom: 1.2rem;
-    box-shadow: 0 4px 12px rgba(211, 47, 47, 0.2);
+    padding: 1rem;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    box-shadow: 0 2px 8px rgba(211, 47, 47, 0.15);
 }
 
 .engine-box h4 {
     font-family: 'Poppins', sans-serif;
-    font-size: 1rem;
+    font-size: 0.95rem;
     font-weight: 800;
-    margin-bottom: 1rem;
+    margin-bottom: 0.8rem;
     text-transform: uppercase;
-    letter-spacing: 1.5px;
+    letter-spacing: 1px;
 }
 
 .engine-specs {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 1rem;
+    gap: 0.8rem;
 }
 
 .spec-item {
     background: rgba(255, 255, 255, 0.15);
-    padding: 1rem;
-    border-radius: 8px;
-    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 0.8rem;
+    border-radius: 6px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .spec-item label {
     display: block;
-    font-size: 0.75rem;
+    font-size: 0.7rem;
     opacity: 0.85;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.4rem;
     text-transform: uppercase;
-    letter-spacing: 0.8px;
+    letter-spacing: 0.6px;
     font-weight: 600;
 }
 
 .spec-item value {
     display: block;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-weight: 800;
     font-family: 'Poppins', sans-serif;
 }
@@ -266,42 +266,42 @@ header p {
 /* ===== FEATURES SECTION ===== */
 .features-header {
     font-family: 'Poppins', sans-serif;
-    font-size: 1.1rem;
+    font-size: 1rem;
     font-weight: 800;
     color: var(--primary);
-    margin: 1.2rem 0 1rem 0;
+    margin: 1rem 0 0.8rem 0;
     text-transform: uppercase;
-    letter-spacing: 1px;
+    letter-spacing: 0.8px;
 }
 
 .features-section {
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem;
 }
 
 .feature-group {
-    background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
-    border-left: 5px solid var(--primary);
-    border-radius: 10px;
-    padding: 1.2rem;
-    margin-bottom: 1rem;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+    background: #f8f9fa;
+    border-left: 4px solid var(--primary);
+    border-radius: 8px;
+    padding: 0.9rem;
+    margin-bottom: 0.8rem;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.05);
 }
 
 .feature-group h5 {
     font-family: 'Poppins', sans-serif;
-    font-size: 1.1rem;
+    font-size: 1rem;
     font-weight: 800;
     color: var(--primary);
-    margin-bottom: 0.8rem;
+    margin-bottom: 0.6rem;
     display: flex;
     align-items: center;
-    gap: 0.7rem;
+    gap: 0.5rem;
     text-transform: uppercase;
     letter-spacing: 0.5px;
 }
 
 .feature-group h5 i {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
 }
 
 .feature-group ul {
@@ -309,13 +309,13 @@ header p {
 }
 
 .feature-group li {
-    padding: 0.6rem 0;
-    font-size: 1rem;
+    padding: 0.5rem 0;
+    font-size: 0.95rem;
     color: var(--text);
-    padding-left: 1.8rem;
+    padding-left: 1.5rem;
     position: relative;
     font-weight: 500;
-    line-height: 1.6;
+    line-height: 1.5;
 }
 
 .feature-group li::before {
@@ -324,14 +324,14 @@ header p {
     left: 0;
     color: var(--secondary);
     font-weight: 800;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 /* ===== DIVIDER ===== */
 .divider {
-    height: 2px;
+    height: 6px;
     background: linear-gradient(90deg, transparent, var(--primary), transparent);
-    margin: 2rem 0;
+    margin: 1.5rem 0;
     border-radius: 3px;
 }
 
@@ -340,13 +340,13 @@ footer {
     background: var(--dark);
     color: white;
     text-align: center;
-    padding: 2rem 1rem;
-    margin-top: 3rem;
-    font-size: 0.85rem;
+    padding: 1.5rem 1rem;
+    margin-top: 2rem;
+    font-size: 0.8rem;
 }
 
 footer p {
-    margin: 0.4rem 0;
+    margin: 0.3rem 0;
     opacity: 0.9;
     font-weight: 500;
 }
@@ -379,20 +379,20 @@ footer p {
     }
 
     .variant-tabs {
-        padding: 0.8rem;
-        gap: 0.4rem;
+        padding: 0.6rem;
+        gap: 0.3rem;
     }
 
     .variant-tab {
-        padding: 0.6rem 0.9rem;
-        font-size: 0.85rem;
+        padding: 0.5rem 0.8rem;
+        font-size: 0.75rem;
     }
 
     .feature-group li {
-        font-size: 0.95rem;
+        font-size: 0.9rem;
     }
 
     .price-box {
-        font-size: 1.3rem;
+        font-size: 1.2rem;
     }
-}
+        }

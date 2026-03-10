@@ -108,60 +108,7 @@ const mahindraData = [
     },
 
     // ============================================================
-    // MODEL 3: BOLERO NEO PLUS ⭐ UPDATED WITH P4 & P10
-    // ============================================================
-    {
-        id: 'bolero-neo-plus',
-        name: 'Bolero Neo Plus',
-        icon: 'fas fa-star',
-        subtitle: '2.2L Diesel | Premium Power',
-        variants: [
-            // VARIANT: Plus (Base)
-            {
-                id: 'Plus',
-                name: 'Plus',
-                price: '₹10.90 - 11.95 Lakh',
-                engine: { type: '2.2L Diesel mHawk', power: '120 bhp', torque: '280 Nm', transmission: '5/6-MT' },
-                features: {
-                    'Exterior': ['16" Premium alloys', 'LED Projector', 'LED DRLs + Fog', 'Sunroof', 'Roof rails', 'Side steps', 'Rear spoiler'],
-                    'Interior': ['7" Touchscreen', 'Dual-zone auto AC', 'Rear climate control', 'Premium leather', 'Ventilated seats', 'Heated seats', 'All power windows', 'Rear wiper & washer'],
-                    'Safety': ['6 SRS Airbags', 'ABS + EBD + TCS', 'Electronic stability control', 'Hill hold assist', 'Hill descent control', '360-degree camera', 'Parking sensors F&R', 'TPMS display'],
-                    'Tech': ['7" Touchscreen', 'Wireless Android/Apple', 'Steering controls', 'Multi USB Type-C ports', 'Wireless phone charger', 'Premium audio system', 'Subwoofer']
-                }
-            },
-
-            // VARIANT: P4 (Mid Premium) ✅ NEW
-            {
-                id: 'P4',
-                name: 'P4',
-                price: '₹12.50 - 13.00 Lakh',
-                engine: { type: '2.2L Diesel mHawk', power: '125 bhp', torque: '290 Nm', transmission: '6-MT' },
-                features: {
-                    'Exterior': ['17" Premium alloy wheels', 'LED Projector headlamps', 'LED DRLs + Fog lights', 'Panoramic sunroof', 'Roof rails with crossbars', 'Side steps', 'Rear spoiler', 'Auto headlamps & wipers'],
-                    'Interior': ['8" Touchscreen', 'Dual-zone automatic AC', 'Rear climate control', 'Leatherette seats', 'Ventilated front seats', 'Heated seats (driver)', 'All power windows', 'Rear wiper & washer', 'Rear defogger', 'Ambient lighting'],
-                    'Safety': ['6 SRS Airbags', 'ABS + EBD + TCS', 'Electronic stability control', 'Hill hold & descent assist', '360-degree camera with parking grid', 'Front & rear parking sensors', 'Auto-dimming IRVM', 'TPMS with display', 'Electronic parking brake'],
-                    'Tech': ['8" Touchscreen display', 'Wireless Android Auto', 'Apple CarPlay wireless', 'Steering-mounted controls', 'Multi USB Type-C ports', 'Wireless phone charger (65W)', 'Premium audio system', 'Voice commands']
-                }
-            },
-
-            // VARIANT: P10 (Top Premium) ✅ NEW
-            {
-                id: 'P10',
-                name: 'P10',
-                price: '₹14.00 - 14.99 Lakh',
-                engine: { type: '2.2L Diesel mHawk', power: '130 bhp', torque: '300 Nm', transmission: '6-AT' },
-                features: {
-                    'Exterior': ['18" Diamond-cut alloy wheels', 'LED Projector headlamps with LED DRLs', 'LED fog lights + cornering lights', 'Panoramic glass sunroof', 'Roof rails with crossbars', 'Premium side steps', 'Rear spoiler', 'Auto headlamps & wipers', 'Power tailgate'],
-                    'Interior': ['10.25" HD Touchscreen', 'Dual-zone automatic AC', 'Rear climate control zones', 'Premium leather upholstery', 'Ventilated front seats', 'Heated front seats', 'Power adjustable driver seat', 'All power windows', 'Rear wiper & washer', 'Rear defogger', 'Multi-color ambient lighting', 'Leather steering wheel', 'Premium interior trim'],
-                    'Safety': ['7 SRS Airbags', 'ABS + EBD + TCS', 'Electronic stability control', 'Hill hold & descent assist', '360-degree surround camera with parking grid', 'Front & rear parking sensors', 'Level 2 ADAS', 'Auto emergency braking', 'Lane keep assist', 'Blind spot detection', 'Auto-dimming IRVM', 'TPMS with display', 'Electronic parking brake', 'Impact sensing door unlock'],
-                    'Tech': ['10.25" HD Touchscreen', 'Connected car platform with Alexa', 'Wireless Android Auto/Apple CarPlay', 'OTA software updates', 'Steering-mounted controls', 'Multi USB Type-C ports (4x)', 'Wireless phone charger (65W fast)', 'Premium Bose audio system (8 speakers)', 'Subwoofer', 'Voice commands & Alexa integration', 'In-car WiFi']
-                }
-            }
-        ]
-    },
-
-    // ============================================================
-    // MODEL 4: XUV 3XO
+    // MODEL 3: XUV 3XO
     // ============================================================
     {
         id: 'xuv3xo',
@@ -225,7 +172,7 @@ const mahindraData = [
     },
 
     // ============================================================
-    // MODEL 5: XUV 7XO
+    // MODEL 4: XUV 7XO
     // ============================================================
     {
         id: 'xuv7xo',
@@ -263,7 +210,7 @@ const mahindraData = [
     },
 
     // ============================================================
-    // MODEL 6: SCORPIO CLASSIC
+    // MODEL 5: SCORPIO CLASSIC
     // ============================================================
     {
         id: 'scorpio-classic',
@@ -301,7 +248,7 @@ const mahindraData = [
     },
 
     // ============================================================
-    // MODEL 7: SCORPIO N
+    // MODEL 6: SCORPIO N
     // ============================================================
     {
         id: 'scorpio-n',
@@ -352,7 +299,7 @@ const mahindraData = [
     },
 
     // ============================================================
-    // MODEL 8: THAR & ROXX
+    // MODEL 7: THAR & ROXX
     // ============================================================
     {
         id: 'thar',
@@ -368,4 +315,49 @@ const mahindraData = [
                 engine: { type: '2.0L Turbo Petrol', power: '150 bhp', torque: '320 Nm', transmission: '5/6-MT' },
                 features: {
                     'Exterior': ['Convertible soft-top', 'Steel wheels', 'Halogen lamps', 'All-terrain tires'],
-                    'Interior': ['Basic infotainment', 'Manual AC', 'Manual power steering', 'Electri
+                    'Interior': ['Basic infotainment', 'Manual AC', 'Manual power steering', 'Electric windows'],
+                    'Safety': ['2 SRS Airbags', 'ABS with EBD', 'ESC', 'Rear parking'],
+                    'Off-Road': ['Real 4x4', 'E-locking', '180mm clearance', 'All-terrain tires']
+                }
+            },
+            // VARIANT: MX
+            {
+                id: 'MX',
+                name: 'MX',
+                price: '₹14.50 - 17.19 Lakh',
+                engine: { type: '2.0L Turbo Petrol', power: '150 bhp', torque: '320 Nm', transmission: '6-MT/AT' },
+                features: {
+                    'Exterior': ['17" Alloy wheels', 'LED Projectors', 'LED DRLs', 'Hardtop option'],
+                    'Interior': ['8" Touchscreen', 'Wireless Android Auto', 'Apple CarPlay', 'Dual-zone auto AC'],
+                    'Safety': ['6 SRS Airbags', 'ABS with EBD', 'ESC', '360° Camera'],
+                    'Off-Road': ['4x4 system', 'Drive modes', '180mm clearance', 'Skid plates']
+                }
+            },
+            // VARIANT: ROXX
+            {
+                id: 'ROXX',
+                name: 'ROXX',
+                price: '₹12.39 - 22.25 Lakh',
+                engine: { type: '2.0L Turbo Petrol', power: '160-177 bhp', torque: '330-380 Nm', transmission: '6-MT/AT' },
+                features: {
+                    'Exterior': ['5-door extended', '18-19" alloys', 'LED Projectors', 'Panoramic sunroof'],
+                    'Interior': ['8-10" Touchscreen', 'Wireless Android/Apple', 'Dual-zone auto AC', 'Premium leather'],
+                    'Safety': ['6 SRS Airbags', 'ABS + EBD + TCS', 'Level 2 ADAS', '360° Camera'],
+                    'Off-Road Expert': ['Real 4x4 (optional)', 'Multi-drive modes', '175mm clearance', 'Adventure package']
+                }
+            }
+        ]
+    }
+];
+
+// Feature icons
+const featureIcons = {
+    'Exterior': 'fas fa-car',
+    'Interior': 'fas fa-home',
+    'Safety': 'fas fa-shield-alt',
+    'Tech': 'fas fa-music',
+    'Off-Road': 'fas fa-cog',
+    'Off-Road Expert': 'fas fa-cog',
+    'AWD Tech': 'fas fa-cog',
+    '4XPLOR': 'fas fa-cog'
+};

@@ -12,19 +12,19 @@ const mahindraData = [
         id: 'bolero',
         name: 'Bolero',
         icon: 'fas fa-cube',
-        subtitle: '1.5L Diesel | Budget SUV',
+        subtitle: '1.5L Diesel | 7-Seater',
         variants: [
             // VARIANT: B4
             {
                 id: 'B4',
                 name: 'B4',
                 price: '₹7.99 Lakh',
-                engine: { type: '1.5L Diesel', power: '69 bhp', torque: '165 Nm', transmission: '5-MT' },
+                engine: { type: '1.5L Diesel', power: '74.9 bhp', torque: '210 Nm', transmission: '5-MT' },
                 features: {
-                    'Exterior': ['Steel wheels', 'Halogen headlamps', 'Body-colored bumpers', 'Roof rails'],
-                    'Interior': ['Manual AC/Heater', 'Power steering', 'Fabric upholstery', 'Manual windows'],
-                    'Safety': ['2 SRS Airbags', 'ABS with EBD', 'Rear parking sensors', 'Speed alert'],
-                    'Tech': ['No infotainment', 'USB connectivity', 'Basic system']
+                    'Exterior': ['R15 Steel wheels',],
+                    'Interior': ['Manual AC/Heater', 'Power steering', 'Vinyl Seat', 'Manual windows'],
+                    'Safety': ['Driver and co-driver Airbags', 'ABS', 'Reverse parking sensors','Seat Belt Reminder'],
+                    //'Tech': ['No infotainment', 'USB connectivity', 'Basic system']
                 }
             },
             // VARIANT: B6
@@ -32,27 +32,27 @@ const mahindraData = [
                 id: 'B6',
                 name: 'B6',
                 price: '₹8.69 - 8.79 Lakh',
-                engine: { type: '1.5L Diesel', power: '69 bhp', torque: '165 Nm', transmission: '5-MT' },
+                engine: { type: '1.5L Diesel', power: '74.9 bhp', torque: '210 Nm', transmission: '5-MT' },
                 features: {
-                    'Exterior': ['Alloy wheels', 'Chrome grille', 'Bending headlamps', 'Colored ORVMs'],
-                    'Interior': ['7" Touchscreen', 'Rear power windows', 'Steering controls', 'USB connectivity'],
-                    'Safety': ['2 SRS Airbags', 'ABS with EBD', 'Traction control', 'ESC'],
-                    'Tech': ['7" Touchscreen', 'Bluetooth', 'Aux/USB', 'Audio system']
+                    'Exterior': ['R15 Steel wheels', 'Wheel Caps', 'Power Windows','Central Locking',],
+                    'Interior': ['Music', 'Touchscreen Infotainment System', 'Steering Mounted Audio Controls','Fabric Seats'],
+                    'Safety': ['Driver and co-driver Airbags', 'ABS', 'Reverse parking sensors','Seat Belt Reminder'],
+                    'Extra': ['Audio system','Power Windows']
                 }
             },
 
 
-            // VARIANT: B6
+            // VARIANT: B6(O)
             {
                 id: 'B6(O)',
                 name: 'B6(O)',
                 price: '₹8.69 - 8.79 Lakh',
-                engine: { type: '1.5L Diesel', power: '69 bhp', torque: '165 Nm', transmission: '5-MT' },
+                engine: { type: '1.5L Diesel', power: '74.9 bhp', torque: '210 Nm', transmission: '5-MT' },
                 features: {
-                    'Exterior': ['Alloy wheels', 'Chrome grille', 'Bending headlamps', 'Colored ORVMs'],
-                    'Interior': ['7" Touchscreen', 'Rear power windows', 'Steering controls', 'USB connectivity'],
-                    'Safety': ['2 SRS Airbags', 'ABS with EBD', 'Traction control', 'ESC'],
-                    'Tech': ['7" Touchscreen', 'Bluetooth', 'Aux/USB', 'Audio system']
+                    'Exterior': ['R15 Steel wheels', 'Fog lights', 'Cornering Light', 'Rear Washer & Wiper','Wheel Caps', 'Power Windows','Central Locking'],
+                    'Interior': ['Music', 'Advanced ouchscreen Infotainment System', 'Steering Mounted Audio Controls','Fabric Seats'],
+                    'Safety': ['Driver and co-driver Airbags', 'ABS', 'Reverse parking sensors','Seat Belt Reminder'],
+                    'Extra': ['Fog lights','Cornering Light', 'Rear Washer & Wiper','Advance Infotainment System']
                 }
             },
 
@@ -63,12 +63,12 @@ const mahindraData = [
                 id: 'B8',
                 name: 'B8',
                 price: '₹9.69 - 9.80 Lakh',
-                engine: { type: '1.5L Diesel', power: '69 bhp', torque: '165 Nm', transmission: '5-MT' },
+                engine: { type: '1.5L Diesel', power: '74.9 bhp', torque: '210 Nm', transmission: '5-MT' },
                 features: {
-                    'Exterior': ['Diamond-cut alloys', 'Projector headlamps', 'LED taillamps', 'Roof rails'],
-                    'Interior': ['7" Touchscreen', 'Leatherette', 'All power windows', 'Rear wiper/washer'],
-                    'Safety': ['6 SRS Airbags', 'ABS with EBD', 'ESC', '360° Camera'],
-                    'Tech': ['7" Touchscreen', 'Bluetooth', 'Steering controls', 'USB Type-C']
+                    'Exterior': ['Diamond-cut alloys', 'Fog lights', 'Cornering Light', 'Rear Washer & Wiper','Wheel Caps', 'Power Windows','Central Locking'],
+                    'Interior': ['Music', 'Advanced Touchscreen Infotainment System', 'Steering Mounted Audio Controls','Leatherette Seats'],
+                    'Safety': ['Driver and co-driver Airbags', 'ABS', 'Reverse parking sensors','Seat Belt Reminder'],
+                    'Extra': ['Diamond-cut alloys','Leatherette Seats']
                 }
             }
         ]
@@ -88,33 +88,20 @@ const mahindraData = [
                 id: 'N4',
                 name: 'N4',
                 price: '₹8.69 Lakh',
-                engine: { type: '1.5L Diesel', power: '69 bhp', torque: '165 Nm', transmission: '5-MT' },
+                engine: { type: '1.5L Diesel', power: '98.6 bhp', torque: '260 Nm', transmission: '5-MT' },
                 features: {
-                    'Exterior': ['Modern design', 'Alloy wheels 15"', 'LED DRLs', 'Roof rails'],
-                    'Interior': ['7" Touchscreen', 'All power windows', 'Steering controls', 'Rear AC vents'],
-                    'Safety': ['2 SRS Airbags', 'ABS with EBD', 'Rear parking', 'Speed alert'],
-                    'Tech': ['7" Touchscreen', 'Bluetooth', 'USB/Aux', 'FM/AM Radio']
+                    'Exterior': ['R15 Steel Wheels','Power Steering','Power windows front & rear','Central locking',],
+                    'Interior': ['Vinyl Seats',],
+                    'Safety': ['Driver & Co-Driver Airbags','Reverse parking assist','ABS + EBD'],
                 }
             },
-            // VARIANT: N6
-            {
-                id: 'N6',
-                name: 'N6',
-                price: '₹9.59 - 9.99 Lakh',
-                engine: { type: '1.5L Diesel', power: '69 bhp', torque: '165 Nm', transmission: '5-MT' },
-                features: {
-                    'Exterior': ['16" Alloy wheels', 'LED Projector', 'LED DRLs', 'Sunroof option'],
-                    'Interior': ['7" Touchscreen', 'Dual-zone AC', 'Rear AC vents', 'Leatherette'],
-                    'Safety': ['4 SRS Airbags', 'ABS with EBD', 'ESC', '360° Camera'],
-                    'Tech': ['7" Touchscreen', 'Wireless Android Auto', 'Apple CarPlay', 'USB Type-C']
-                }
-            },
+
             // VARIANT: N8
             {
                 id: 'N8',
                 name: 'N8',
                 price: '₹10.00 - 10.49 Lakh',
-                engine: { type: '1.5L Diesel', power: '69 bhp', torque: '165 Nm', transmission: '5-MT' },
+                engine: { type: '1.5L Diesel', power: '98.6 bhp', torque: '260 Nm', transmission: '5-MT' },
                 features: {
                     'Exterior': ['16" Premium alloys', 'LED Projectors', 'LED DRLs + Fog', 'Sunroof'],
                     'Interior': ['7" Touchscreen', 'Dual-zone auto', 'Rear climate', 'Premium leather'],
@@ -122,12 +109,70 @@ const mahindraData = [
                     'Tech': ['7" Touchscreen', 'Wireless Android/Apple', 'Steering controls', 'USB Type-C + Wireless']
                 }
             },
+
             // VARIANT: N10
             {
                 id: 'N10',
                 name: 'N10',
+                price: '₹10.00 - 10.49 Lakh',
+                engine: { type: '1.5L Diesel', power: '98.6 bhp', torque: '260 Nm', transmission: '5-MT' },
+                features: {
+                    'Exterior': ['16" Premium alloys', 'LED Projectors', 'LED DRLs + Fog', 'Sunroof'],
+                    'Interior': ['7" Touchscreen', 'Dual-zone auto', 'Rear climate', 'Premium leather'],
+                    'Safety': ['6 SRS Airbags', 'ABS + EBD + TCS', 'ESC', '360° Camera'],
+                    'Tech': ['7" Touchscreen', 'Wireless Android/Apple', 'Steering controls', 'USB Type-C + Wireless']
+                }
+            },
+            
+            // VARIANT: N11
+            {
+                id: 'N11',
+                name: 'N11',
                 price: '₹9.59 - 9.99 Lakh',
-                engine: { type: '1.5L Diesel', power: '69 bhp', torque: '165 Nm', transmission: '5-MT' },
+                engine: { type: '1.5L Diesel', power: '98.6 bhp', torque: '260 Nm', transmission: '5-MT' },
+                features: {
+                    'Exterior': ['16" Alloy wheels', 'LED Projector', 'LED DRLs', 'Sunroof option'],
+                    'Interior': ['7" Touchscreen', 'Dual-zone AC', 'Rear AC vents', 'Leatherette'],
+                    'Safety': ['4 SRS Airbags', 'ABS with EBD', 'ESC', '360° Camera'],
+                    'Tech': ['7" Touchscreen', 'Wireless Android Auto', 'Apple CarPlay', 'USB Type-C']
+                }
+           }
+            
+        ]
+
+
+    },
+
+    //sushil
+        // ============================================================
+    // MODEL 2: BOLERO NEO PLUS
+    // ============================================================
+    {
+        id: 'Neo-plus',
+        name: 'Neo Plus',
+        icon: 'fas fa-car-side',
+        subtitle: '1.5L Diesel | Modern SUV',
+        variants: [
+            // VARIANT: P4
+            {
+                id: 'P4',
+                name: 'P4',
+                price: '₹8.69 Lakh',
+                engine: { type: '1.5L Diesel', power: '98.6 bhp', torque: '165 Nm', transmission: '5-MT' },
+                features: {
+                    'Exterior': ['Modern design', 'Alloy wheels 15"', 'LED DRLs', 'Roof rails'],
+                    'Interior': ['7" Touchscreen', 'All power windows', 'Steering controls', 'Rear AC vents'],
+                    'Safety': ['2 SRS Airbags', 'ABS with EBD', 'Rear parking', 'Speed alert'],
+                    'Tech': ['7" Touchscreen', 'Bluetooth', 'USB/Aux', 'FM/AM Radio']
+                }
+            },
+            
+            // VARIANT: P10
+            {
+                id: 'P10',
+                name: 'P10',
+                price: '₹9.59 - 9.99 Lakh',
+                engine: { type: '1.5L Diesel', power: '98.6 bhp', torque: '165 Nm', transmission: '5-MT' },
                 features: {
                     'Exterior': ['16" Alloy wheels', 'LED Projector', 'LED DRLs', 'Sunroof option'],
                     'Interior': ['7" Touchscreen', 'Dual-zone AC', 'Rear AC vents', 'Leatherette'],

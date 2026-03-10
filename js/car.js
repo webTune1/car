@@ -40,6 +40,24 @@ const mahindraData = [
                     'Tech': ['7" Touchscreen', 'Bluetooth', 'Aux/USB', 'Audio system']
                 }
             },
+
+
+            // VARIANT: B6
+            {
+                id: 'B6(O)',
+                name: 'B6(O)',
+                price: '₹8.69 - 8.79 Lakh',
+                engine: { type: '1.5L Diesel', power: '69 bhp', torque: '165 Nm', transmission: '5-MT' },
+                features: {
+                    'Exterior': ['Alloy wheels', 'Chrome grille', 'Bending headlamps', 'Colored ORVMs'],
+                    'Interior': ['7" Touchscreen', 'Rear power windows', 'Steering controls', 'USB connectivity'],
+                    'Safety': ['2 SRS Airbags', 'ABS with EBD', 'Traction control', 'ESC'],
+                    'Tech': ['7" Touchscreen', 'Bluetooth', 'Aux/USB', 'Audio system']
+                }
+            },
+
+
+            
             // VARIANT: B8
             {
                 id: 'B8',
@@ -103,8 +121,24 @@ const mahindraData = [
                     'Safety': ['6 SRS Airbags', 'ABS + EBD + TCS', 'ESC', '360° Camera'],
                     'Tech': ['7" Touchscreen', 'Wireless Android/Apple', 'Steering controls', 'USB Type-C + Wireless']
                 }
-            }
+            },
+            // VARIANT: N10
+            {
+                id: 'N10',
+                name: 'N10',
+                price: '₹9.59 - 9.99 Lakh',
+                engine: { type: '1.5L Diesel', power: '69 bhp', torque: '165 Nm', transmission: '5-MT' },
+                features: {
+                    'Exterior': ['16" Alloy wheels', 'LED Projector', 'LED DRLs', 'Sunroof option'],
+                    'Interior': ['7" Touchscreen', 'Dual-zone AC', 'Rear AC vents', 'Leatherette'],
+                    'Safety': ['4 SRS Airbags', 'ABS with EBD', 'ESC', '360° Camera'],
+                    'Tech': ['7" Touchscreen', 'Wireless Android Auto', 'Apple CarPlay', 'USB Type-C']
+                }
+           }
+            
         ]
+
+
     },
 
     // ============================================================

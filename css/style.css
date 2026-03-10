@@ -59,7 +59,7 @@ header p {
     top: 0;
     z-index: 100;
     scrollbar-width: none;
-    border-bottom: 1px solid #e0e0e0;
+    border-bottom: none;
 }
 
 .tab-nav::-webkit-scrollbar {
@@ -327,12 +327,9 @@ header p {
     font-size: 1rem;
 }
 
-/* ===== DIVIDER ===== */
+/* ===== DIVIDER - HIDDEN ===== */
 .divider {
-    height: 6px;
-    background: linear-gradient(90deg, transparent, var(--primary), transparent);
-    margin: 1.5rem 0;
-    border-radius: 3px;
+    display: none !important;
 }
 
 /* ===== FOOTER ===== */
@@ -395,4 +392,4 @@ footer p {
     .price-box {
         font-size: 1.2rem;
     }
-        }
+}

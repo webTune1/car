@@ -214,7 +214,7 @@ const mahindraData = [
                 id: 'MX1',
                 name: 'MX1',
                 price: '₹7.37 - 8.15 Lakh',
-                engine: { type: '1200 cc Petrol', power: '110 bhp', torque: '200 Nm', transmission: '6-PMT' },
+                engine: { type: '1200cc Petrol | 1500cc Diesel', power: '110 bhp | 128 bhp (TGDi) | 115 bhp', torque: '200 Nm | 230 Nm (TGDi) | 300 Nm', transmission: '6- PMT' },
                 features: {
                     'Features': ['Halogen Headlamps', 'R16 Steel Wheels','ORVMS','Power Window - Front & Rear', 'Power Window : 1- Touch Down','Rear AC Vents','Engine Start/Stop',],
                     'Safety': ['6 SRS Airbags', 'ABS with EBD', 'ESC', 'ISOFIX anchors'],
@@ -226,7 +226,7 @@ const mahindraData = [
                 id: 'MX2',
                 name: 'MX2',
                 price: '₹7.37 - 8.15 Lakh',
-                engine: { type: '1500 cc Diesel', power: '115 bhp', torque: '300 Nm', transmission: '6-DMT' },
+                engine: { type: '1200cc Petrol | 1500cc Diesel', power: '110 bhp | 128 bhp (TGDi) | 115 bhp', torque: '200 Nm | 230 Nm (TGDi) | 300 Nm', transmission: '6- DMT' },
                 features: {
                     'Features': ['Halogen Headlamps','R16 Steel Wheels','10.24 inch Infotainment','4 Speakers','Remote Keyless Entry','ORVMS','Power Window - Front & Rear', 'Power Window : 1- Touch Down','Rear AC Vents','Engine Start/Stop',],
                     'Safety': ['6 SRS Airbags', 'ABS with EBD', 'ESC', 'ISOFIX anchors'],
@@ -239,7 +239,7 @@ const mahindraData = [
                 id: 'MX2 Pro',
                 name: 'MX2 Pro',
                 price: '₹8.45 - 9.85 Lakh',
-                engine: { type: '1500cc Diesel | 1200cc Petrol', power: '115 bhp | 110 bhp', torque: '300 Nm | 200 Nm', transmission: '6-DMT | PMT/AT' },
+                engine: { type: '1200cc Petrol | 1500cc Diesel', power: '110 bhp | 128 bhp (TGDi) | 115 bhp', torque: '200 Nm | 230 Nm (TGDi) | 300 Nm', transmission: '6- PMT | DMT' },
                 features: {
                     'Features': ['Halogen Headlamps','R16 Steel Wheels','Wheel Cover','Wheel Cover','10.24 inch Infotainment','4 Speakers','Remote Keyless Entry','ORVMS','Power Window - Front & Rear', 'Power Window : 1- Touch Down','Rear AC Vents','Engine Start/Stop',],
                     'Safety': ['6 SRS Airbags', 'ABS with EBD', 'ESC', 'ISOFIX anchors'],
@@ -252,7 +252,7 @@ const mahindraData = [
                 id: 'MX3',
                 name: 'MX3',
                 price: '₹8.45 - 9.85 Lakh',
-                engine: { type: '1500cc Diesel | 1200cc Petrol', power: '115 bhp | 110 bhp', torque: '300 Nm | 200 Nm', transmission: '6-DMT | PMT/AT' },
+                engine: { type: '1200cc Petrol | 1500cc Diesel', power: '110 bhp | 128 bhp (TGDi) | 115 bhp', torque: '200 Nm | 230 Nm (TGDi) | 300 Nm', transmission: '6- PMT/AT | DMT/AT' },
                 features: {
                     'Features': ['Halogen Headlamps','R16 Steel Wheels','Cruise Control','Wireless Android Auto','Wired Apple CarPlay','Wheel Cover','Wheel Cover','10.24 inch HD Infotainment','4 Speakers','Remote Keyless Entry','ORVMS','Power Window - Front & Rear', 'Power Window : 1- Touch Down','Rear AC Vents','Engine Start/Stop',],
                     'Safety': ['6 SRS Airbags', 'ABS with EBD', 'ESC', 'ISOFIX anchors'],
@@ -266,7 +266,7 @@ const mahindraData = [
                 id: 'MX3 Pro',
                 name: 'MX3 Pro',
                 price: '₹8.45 - 9.85 Lakh',
-                engine: { type: '1500cc Diesel | 1200cc Petrol', power: '115 bhp | 110 bhp', torque: '300 Nm | 200 Nm', transmission: '6-DMT | PMT/AT' },
+                engine: { type: '1200cc Petrol | 1500cc Diesel', power: '110 bhp | 128 bhp (TGDi) | 115 bhp', torque: '200 Nm | 230 Nm (TGDi) | 300 Nm', transmission: '6- PMT/AT | DMT' },
                 features: {
                     'Features': ['LED Headlamps','LED DRL','Stylized Vector Wheel Cover','Wireless Charger','R16 Steel Wheels','Cruise Control','Wireless Android Auto','Wired Apple CarPlay','10.24 inch HD Infotainment','4 Speakers','Remote Keyless Entry','ORVMS','Power Window - Front & Rear', 'Power Window : 1- Touch Down','Rear AC Vents','Engine Start/Stop',],
                     'Safety': ['6 SRS Airbags', 'ABS with EBD', 'ESC', 'ISOFIX anchors'],
@@ -279,7 +279,7 @@ const mahindraData = [
                 id: 'AX5',
                 name: 'AX5',
                 price: '₹10.85 - 12.95 Lakh',
-                engine: { type: '1.2L Turbo Petrol', power: '108 bhp', torque: '200 Nm', transmission: '6-MT/AT/AMT' },
+                engine: { type: '1200cc Petrol | 1500cc Diesel', power: '110 bhp | 128 bhp (TGDi) | 115 bhp', torque: '200 Nm | 230 Nm (TGDi) | 300 Nm', transmission: '6- PMT/AT | DMT/AT' },
                 features: {
                     'Features': ['R16 Diamond Cut Alloys','Twin 10.24 inch HD Infotainment','10.24 inch Digital Cluster Screen','Passive Keyless Entry','Push Button Start','6 Speakers','Rear View Camera','Leather Steering & Gear Knob','Online Navigation','Rear Wiper & Washer','Cruise Control','Wireless Android Auto','Wired Apple CarPlay','ORVM',],
                     'Safety': ['6 SRS Airbags', 'ABS with EBD', 'ESC', 'ISOFIX anchors'],
@@ -292,7 +292,7 @@ const mahindraData = [
                 id: 'AX5L',
                 name: 'AX5L',
                 price: '₹10.85 - 12.95 Lakh',
-                engine: { type: '1.2L Turbo Petrol', power: '108 bhp', torque: '200 Nm', transmission: '6-MT/AT/AMT' },
+                engine: { type: '1200cc Petrol | 1500cc Diesel', power: '110 bhp | 128 bhp (TGDi) | 115 bhp', torque: '200 Nm | 230 Nm (TGDi) | 300 Nm', transmission: '6- PAT(TGDi)' },
                 features: {
                     'Features': ['R16 Diamond Cut Alloys','Level 2 ADAS','360-degree Surround View System','Blind View Monitor',' Electronic Parking Brake with Auto Hold','Dolby Atmos','Twin 10.24 inch HD Infotainment','10.24 inch Digital Cluster Screen','Passive Keyless Entry','Push Button Start','6 Speakers','Rear View Camera','Leather Steering & Gear Knob','Online Navigation','Rear Wiper & Washer','Cruise Control','Wireless Android Auto','Wired Apple CarPlay','ORVM',],
                     'Safety': ['6 SRS Airbags', 'ABS with EBD', 'ESC', 'ISOFIX anchors',],
@@ -306,7 +306,7 @@ const mahindraData = [
                 id: 'AX7',
                 name: 'AX7',
                 price: '₹13.00 - 14.55 Lakh',
-                engine: { type: '1.2L Turbo Petrol TGDi', power: '130 bhp', torque: '230 Nm', transmission: '6-MT/AT/AMT' },
+                engine: { type: '1200cc Petrol | 1500cc Diesel', power: '110 bhp | 128 bhp (TGDi) | 115 bhp', torque: '200 Nm | 230 Nm (TGDi) | 300 Nm', transmission: '6- PMT/AT (TGDi) | DMT/AT' },
                 features: {
                     'Features': ['R17 Diamond Cut Alloys','Skyroof','Harman Kardon Premium Audio','Leatherette Seats','LED Front Fog Lamps','Soft touch Leatherette on Dashboard & Door Trims',,'Twin 10.24 inch HD Infotainment','10.24 inch Digital Cluster Screen','Passive Keyless Entry','Push Button Start','6 Speakers','Rear View Camera','Leather Steering & Gear Knob','Online Navigation','Rear Wiper & Washer','Cruise Control','Wireless Android Auto','Wired Apple CarPlay','ORVM',],
                     'Safety': ['6 SRS Airbags', 'ABS with EBD', 'ESC', 'ISOFIX anchors'],
@@ -320,7 +320,7 @@ const mahindraData = [
                 id: 'AX7L',
                 name: 'AX7L',
                 price: '₹13.00 - 14.55 Lakh',
-                engine: { type: '1.2L Turbo Petrol TGDi', power: '130 bhp', torque: '230 Nm', transmission: '6-MT/AT/AMT' },
+                engine: { type: '1200cc Petrol | 1500cc Diesel', power: '110 bhp | 128 bhp (TGDi) | 115 bhp', torque: '200 Nm | 230 Nm (TGDi) | 300 Nm', transmission: '6- PMT/AT (TGDi) | DMT' },
                 features: {
                     'Features': ['R17 Diamond Cut Alloys','Level 2 ADAS','360-Degree Surround View','Blind View Monitor','Electronic Parking Brake with Auto Hold','Skyroof','Harman Kardon Premium Audio','Leatherette Seats','LED Front Fog Lamps','Soft touch Leatherette on Dashboard & Door Trims','Twin 10.24 inch HD Infotainment','10.24 inch Digital Cluster Screen','Passive Keyless Entry','Push Button Start','6 Speakers','Rear View Camera','Leather Steering & Gear Knob','Online Navigation','Rear Wiper & Washer','Cruise Control','Wireless Android Auto','Wired Apple CarPlay','ORVM'],
                     'Safety': ['6 SRS Airbags', 'ABS with EBD', 'ESC', 'ISOFIX anchors'],

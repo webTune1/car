@@ -12,14 +12,14 @@ const mahindraData = [
         id: 'bolero',
         name: 'Bolero',
         icon: 'fas fa-cube',
-        subtitle: '1.5L Diesel | 7-Seater',
+        subtitle: '1493cc Diesel | 7-Seater',
         variants: [
             // VARIANT: B4
             {
                 id: 'B4',
                 name: 'B4',
                 price: '₹7.99 Lakh',
-                engine: { type: '1.5L Diesel', power: '74.9 bhp', torque: '210 Nm', transmission: '5-MT' },
+                engine: { type: '1493cc Diesel', power: '74.9 bhp', torque: '210 Nm', transmission: '5-MT' },
                 features: {
                     'Exterior': ['R15 Steel wheels',],
                     'Interior': ['Manual AC/Heater', 'Power steering', 'Vinyl Seat', 'Manual windows'],
@@ -32,7 +32,7 @@ const mahindraData = [
                 id: 'B6',
                 name: 'B6',
                 price: '₹8.69 - 8.79 Lakh',
-                engine: { type: '1.5L Diesel', power: '74.9 bhp', torque: '210 Nm', transmission: '5-MT' },
+                engine: { type: '1493cc Diesel', power: '74.9 bhp', torque: '210 Nm', transmission: '5-MT' },
                 features: {
                     'Exterior': ['R15 Steel wheels', 'Wheel Caps', 'Power Windows','Central Locking',],
                     'Interior': ['Music', 'Touchscreen Infotainment System', 'Steering Mounted Audio Controls','Fabric Seats'],
@@ -47,7 +47,7 @@ const mahindraData = [
                 id: 'B6(O)',
                 name: 'B6(O)',
                 price: '₹8.69 - 8.79 Lakh',
-                engine: { type: '1.5L Diesel', power: '74.9 bhp', torque: '210 Nm', transmission: '5-MT' },
+                engine: { type: '1493cc Diesel', power: '74.9 bhp', torque: '210 Nm', transmission: '5-MT' },
                 features: {
                     'Exterior': ['R15 Steel wheels', 'Fog lights', 'Cornering Light', 'Rear Washer & Wiper','Wheel Caps', 'Power Windows','Central Locking'],
                     'Interior': ['Music', 'Advanced ouchscreen Infotainment System', 'Steering Mounted Audio Controls','Fabric Seats'],
@@ -63,7 +63,7 @@ const mahindraData = [
                 id: 'B8',
                 name: 'B8',
                 price: '₹9.69 - 9.80 Lakh',
-                engine: { type: '1.5L Diesel', power: '74.9 bhp', torque: '210 Nm', transmission: '5-MT' },
+                engine: { type: '1493cc Diesel', power: '74.9 bhp', torque: '210 Nm', transmission: '5-MT' },
                 features: {
                     'Exterior': ['Diamond-cut alloys', 'Fog lights', 'Cornering Light', 'Rear Washer & Wiper','Wheel Caps', 'Power Windows','Central Locking'],
                     'Interior': ['Music', 'Advanced Touchscreen Infotainment System', 'Steering Mounted Audio Controls','Leatherette Seats'],
@@ -81,14 +81,14 @@ const mahindraData = [
         id: 'bolero-neo',
         name: 'Bolero Neo',
         icon: 'fas fa-car-side',
-        subtitle: '1.5L Diesel | Modern SUV',
+        subtitle: '1493cc Diesel | 7-Seater',
         variants: [
             // VARIANT: N4
             {
                 id: 'N4',
                 name: 'N4',
                 price: '₹8.69 Lakh',
-                engine: { type: '1.5L Diesel', power: '98.6 bhp', torque: '260 Nm', transmission: '5-MT' },
+                engine: { type: '1493cc Diesel', power: '98.6 bhp', torque: '260 Nm', transmission: '5-MT' },
                 features: {
                     'Exterior': ['R15 Steel Wheels','Power Steering','Power windows front & rear','Central locking',],
                     'Interior': ['Vinyl Seats',],
@@ -101,12 +101,12 @@ const mahindraData = [
                 id: 'N8',
                 name: 'N8',
                 price: '₹10.00 - 10.49 Lakh',
-                engine: { type: '1.5L Diesel', power: '98.6 bhp', torque: '260 Nm', transmission: '5-MT' },
+                engine: { type: '1493cc Diesel', power: '98.6 bhp', torque: '260 Nm', transmission: '5-MT' },
                 features: {
-                    'Exterior': ['16" Premium alloys', 'LED Projectors', 'LED DRLs + Fog', 'Sunroof'],
-                    'Interior': ['7" Touchscreen', 'Dual-zone auto', 'Rear climate', 'Premium leather'],
-                    'Safety': ['6 SRS Airbags', 'ABS + EBD + TCS', 'ESC', '360° Camera'],
-                    'Tech': ['7" Touchscreen', 'Wireless Android/Apple', 'Steering controls', 'USB Type-C + Wireless']
+                    'Exterior': ['R15 Steel Wheels', 'Remote key entry','Power Steering','Power windows front & rear','Central locking','Rear glass wiper & defogger',],
+                    'Interior': ['Fabric Seats',  'Music 4 speakers', 'Steering mounted audio controls',],
+                    'Safety': ['Driver & Co-Driver Airbags','Reverse parking assist','ABS + EBD'],
+                    'Extra': ['Music System','Rear glass wiper & defogger','Remote key entry',],
                 }
             },
 
@@ -115,12 +115,26 @@ const mahindraData = [
                 id: 'N10',
                 name: 'N10',
                 price: '₹10.00 - 10.49 Lakh',
-                engine: { type: '1.5L Diesel', power: '98.6 bhp', torque: '260 Nm', transmission: '5-MT' },
+                engine: { type: '1493cc Diesel', power: '98.6 bhp', torque: '260 Nm', transmission: '5-MT' },
                 features: {
-                    'Exterior': ['16" Premium alloys', 'LED Projectors', 'LED DRLs + Fog', 'Sunroof'],
-                    'Interior': ['7" Touchscreen', 'Dual-zone auto', 'Rear climate', 'Premium leather'],
-                    'Safety': ['6 SRS Airbags', 'ABS + EBD + TCS', 'ESC', '360° Camera'],
-                    'Tech': ['7" Touchscreen', 'Wireless Android/Apple', 'Steering controls', 'USB Type-C + Wireless']
+                    'Exterior': ['R15 Alloy Wheels','Electrically adjustable ORVMs','Rear-view camera','Fog lamps',],
+                    'Interior': ['Height adjustable driver seat','Front armrests for driver & co-driver','Fabric Seats','9 inch Touchscreen Infotainment System','Crusie Control','ORVMs',],
+                    'Safety': ['Driver & Co-Driver Airbags','Reverse parking assist','ABS + EBD'],
+                    'Extra': ['Alloy Wheels','Rear Camera','Fog Lamps','9 inch infotainment Screen','Cruise Control','ORVMs'],
+                }
+            },
+
+            //VARIANT: N10(O)
+            {
+                id: 'N10(O)',
+                name: 'N10(O)',
+                price: '₹10.00 - 10.49 Lakh',
+                engine: { type: '1493cc Diesel', power: '98.6 bhp', torque: '260 Nm', transmission: '5-MT' },
+                features: {
+                    'Exterior': ['R15 Alloy Wheels','Electrically adjustable ORVMs','Rear-view camera','Fog lamps',],
+                    'Interior': ['Leatherette (Mocha Brown)','Height adjustable driver seat','Front armrests for driver & co-driver','Fabric Seats','9 inch Touchscreen Infotainment System','Crusie Control','ORVMs',],
+                    'Safety': ['Driver & Co-Driver Airbags','Reverse parking assist','ABS + EBD'],
+                    'Extra': ['Leatherette (Mocha Brown)','Multi-Terrain Technology',],
                 }
             },
             
@@ -129,12 +143,12 @@ const mahindraData = [
                 id: 'N11',
                 name: 'N11',
                 price: '₹9.59 - 9.99 Lakh',
-                engine: { type: '1.5L Diesel', power: '98.6 bhp', torque: '260 Nm', transmission: '5-MT' },
+                engine: { type: '1493cc Diesel', power: '98.6 bhp', torque: '260 Nm', transmission: '5-MT' },
                 features: {
-                    'Exterior': ['16" Alloy wheels', 'LED Projector', 'LED DRLs', 'Sunroof option'],
-                    'Interior': ['7" Touchscreen', 'Dual-zone AC', 'Rear AC vents', 'Leatherette'],
-                    'Safety': ['4 SRS Airbags', 'ABS with EBD', 'ESC', '360° Camera'],
-                    'Tech': ['7" Touchscreen', 'Wireless Android Auto', 'Apple CarPlay', 'USB Type-C']
+                    'Exterior': ['R16 Alloy Wheels','Electrically adjustable ORVMs','Rear-view camera','Fog lamps',],
+                    'Interior': ['Leatherette (Mocha Brown)','Height adjustable driver seat','Front armrests for driver & co-driver','Fabric Seats','9 inch Touchscreen Infotainment System','Crusie Control','ORVMs',],
+                    'Safety': ['Driver & Co-Driver Airbags','Reverse parking assist','ABS + EBD'],
+                    'Extra': ['R16 Alloy Wheels','Leatherette (Lunar Grey)',],
                 }
            }
             
@@ -151,19 +165,19 @@ const mahindraData = [
         id: 'Neo-plus',
         name: 'Neo Plus',
         icon: 'fas fa-car-side',
-        subtitle: '1.5L Diesel | Modern SUV',
+        subtitle: '2200cc Diesel | 9-Seater',
         variants: [
             // VARIANT: P4
             {
                 id: 'P4',
                 name: 'P4',
                 price: '₹8.69 Lakh',
-                engine: { type: '1.5L Diesel', power: '98.6 bhp', torque: '165 Nm', transmission: '5-MT' },
+                engine: { type: '2200cc Diesel', power: '118.4 bhp', torque: '280 Nm', transmission: '6-MT' },
                 features: {
-                    'Exterior': ['Modern design', 'Alloy wheels 15"', 'LED DRLs', 'Roof rails'],
-                    'Interior': ['7" Touchscreen', 'All power windows', 'Steering controls', 'Rear AC vents'],
-                    'Safety': ['2 SRS Airbags', 'ABS with EBD', 'Rear parking', 'Speed alert'],
-                    'Tech': ['7" Touchscreen', 'Bluetooth', 'USB/Aux', 'FM/AM Radio']
+                    'Exterior': ['Steel wheels with cover', 'Power Windows Front & Rear ','Central Locking ','AC With Eco Mode ',],
+                    'Interior': ['Hydraulic Power Steering ','Vinyl Seats',],
+                    'Safety': ['Airbags - Driver & Co-driver t','ABS + EBD ','Auto Door Locking - During Drive ',],
+                    //'Tech': ['7" Touchscreen', 'Bluetooth', 'USB/Aux', 'FM/AM Radio']
                 }
             },
             
@@ -172,12 +186,12 @@ const mahindraData = [
                 id: 'P10',
                 name: 'P10',
                 price: '₹9.59 - 9.99 Lakh',
-                engine: { type: '1.5L Diesel', power: '98.6 bhp', torque: '165 Nm', transmission: '5-MT' },
+                engine: { type: '2200cc Diesel', power: '118.4 bhp', torque: '280 Nm', transmission: '6-MT' },
                 features: {
-                    'Exterior': ['16" Alloy wheels', 'LED Projector', 'LED DRLs', 'Sunroof option'],
-                    'Interior': ['7" Touchscreen', 'Dual-zone AC', 'Rear AC vents', 'Leatherette'],
-                    'Safety': ['4 SRS Airbags', 'ABS with EBD', 'ESC', '360° Camera'],
-                    'Tech': ['7" Touchscreen', 'Wireless Android Auto', 'Apple CarPlay', 'USB Type-C']
+                    'Exterior': ['Alloy Wheels', 'Power Windows Front & Rear ','Central Locking ', 'Remote Key Entry ','AC With Eco Mode ',],
+                    'Interior': ['Music System with 4 Speakers','9 inch Info-Screen', 'Steering Mounted Audio Controls ','Hydraulic Power Steering ','Fabric Seats',],
+                    'Safety': ['Airbags - Driver & Co-driver ','ABS + EBD ','Auto Door Locking - During Drive',],
+                    'Extra': ['Alloy Wheels', 'Remote Key Entry','Music System','Info-Screen',]
                 }
            }
             
@@ -193,34 +207,73 @@ const mahindraData = [
         id: 'xuv3xo',
         name: 'XUV 3XO',
         icon: 'fas fa-car',
-        subtitle: '1.2L Turbo | Compact Premium',
+        subtitle: '1200 cc Petrol | 1500cc Diesel ',
         variants: [
             // VARIANT: MX1
             {
                 id: 'MX1',
                 name: 'MX1',
                 price: '₹7.37 - 8.15 Lakh',
-                engine: { type: '1.2L Turbo Petrol', power: '108 bhp', torque: '200 Nm', transmission: '6-MT' },
+                engine: { type: '1200 cc Petrol', power: '110 bhp', torque: '200 Nm', transmission: '6-PMT' },
                 features: {
-                    'Exterior': ['Bi-halogen projector', 'LED tail lamps', 'Steel wheels 16"', 'Basic bumpers'],
-                    'Interior': ['Fabric seats', 'Manual AC + rear vents', 'All power windows', 'Adjustable ORVMs'],
+                    'Features': ['Halogen Headlamps', 'R16 Steel Wheels','ORVMS','Power Window - Front & Rear', 'Power Window : 1- Touch Down','Rear AC Vents','Engine Start/Stop',],
                     'Safety': ['6 SRS Airbags', 'ABS with EBD', 'ESC', 'ISOFIX anchors'],
-                    'Tech': ['No infotainment', 'USB-A port', 'USB-C port', '12V socket']
                 }
             },
+            
+               // VARIANT: MX2
+            {
+                id: 'MX2',
+                name: 'MX2',
+                price: '₹7.37 - 8.15 Lakh',
+                engine: { type: '1500 cc Diesel', power: '115 bhp', torque: '300 Nm', transmission: '6-DMT' },
+                features: {
+                    'Features': ['Halogen Headlamps','R16 Steel Wheels','10.24 inch Infotainment','4 Speakers','Remote Keyless Entry','ORVMS','Power Window - Front & Rear', 'Power Window : 1- Touch Down','Rear AC Vents','Engine Start/Stop',],
+                    'Safety': ['6 SRS Airbags', 'ABS with EBD', 'ESC', 'ISOFIX anchors'],
+                    'Extra': ['Music (4 Speakers)','10.24 inch Infotainment Screen', 'Remote Keyless Entry']
+                }
+            },
+            
+            // VARIANT: MX2 pro
+            {
+                id: 'MX2 Pro',
+                name: 'MX2 Pro',
+                price: '₹8.45 - 9.85 Lakh',
+                engine: { type: '1500cc Diesel | 1200cc Petrol', power: '115 bhp | 110 bhp', torque: '300 Nm | 200 Nm', transmission: '6-DMT | PMT/AT' },
+                features: {
+                    'Features': ['Halogen Headlamps','R16 Steel Wheels','Wheel Cover','Wheel Cover','10.24 inch Infotainment','4 Speakers','Remote Keyless Entry','ORVMS','Power Window - Front & Rear', 'Power Window : 1- Touch Down','Rear AC Vents','Engine Start/Stop',],
+                    'Safety': ['6 SRS Airbags', 'ABS with EBD', 'ESC', 'ISOFIX anchors'],
+                    'Extra': ['Single Pane Sunroof','Wheel Cover']
+                }
+            },
+
             // VARIANT: MX3
             {
                 id: 'MX3',
                 name: 'MX3',
                 price: '₹8.45 - 9.85 Lakh',
-                engine: { type: '1.2L Turbo Petrol', power: '108 bhp', torque: '200 Nm', transmission: '6-MT/AT' },
+                engine: { type: '1500cc Diesel | 1200cc Petrol', power: '115 bhp | 110 bhp', torque: '300 Nm | 200 Nm', transmission: '6-DMT | PMT/AT' },
                 features: {
-                    'Exterior': ['16" Alloy wheels', 'LED Projectors', 'LED DRLs', 'Sunroof option'],
-                    'Interior': ['10.25" HD display', 'Wireless Android Auto', 'Apple CarPlay', 'Cruise control'],
-                    'Safety': ['6 SRS Airbags', 'ABS with EBD', 'ESC', 'Rear camera'],
-                    'Tech': ['10.25" Display', 'Wireless Android/Apple', 'Steering controls', 'Wireless charger']
+                    'Features': ['Halogen Headlamps','R16 Steel Wheels','Cruise Control','Wireless Android Auto','Wired Apple CarPlay','Wheel Cover','Wheel Cover','10.24 inch HD Infotainment','4 Speakers','Remote Keyless Entry','ORVMS','Power Window - Front & Rear', 'Power Window : 1- Touch Down','Rear AC Vents','Engine Start/Stop',],
+                    'Safety': ['6 SRS Airbags', 'ABS with EBD', 'ESC', 'ISOFIX anchors'],
+                    'Extra': ['Cruise Control','Wireless Android Auto','Wired Apple CarPlay','HD Infotainment Screen']
                 }
             },
+
+
+             // VARIANT: MX3 Pro
+            {
+                id: 'MX3 Pro',
+                name: 'MX3 Pro',
+                price: '₹8.45 - 9.85 Lakh',
+                engine: { type: '1500cc Diesel | 1200cc Petrol', power: '115 bhp | 110 bhp', torque: '300 Nm | 200 Nm', transmission: '6-DMT | PMT/AT' },
+                features: {
+                    'Features': ['LED Headlamps','LED DRL','Stylized Vector Wheel Cover','Wireless Charger','R16 Steel Wheels','Cruise Control','Wireless Android Auto','Wired Apple CarPlay','10.24 inch HD Infotainment','4 Speakers','Remote Keyless Entry','ORVMS','Power Window - Front & Rear', 'Power Window : 1- Touch Down','Rear AC Vents','Engine Start/Stop',],
+                    'Safety': ['6 SRS Airbags', 'ABS with EBD', 'ESC', 'ISOFIX anchors'],
+                    'Extra': ['LED Headlamps','LED DRL','Stylized Vector Wheel Cover','Wireless Charger']
+                }
+            },
+
             // VARIANT: AX5
             {
                 id: 'AX5',
@@ -228,12 +281,26 @@ const mahindraData = [
                 price: '₹10.85 - 12.95 Lakh',
                 engine: { type: '1.2L Turbo Petrol', power: '108 bhp', torque: '200 Nm', transmission: '6-MT/AT/AMT' },
                 features: {
-                    'Exterior': ['17" Diamond-cut alloys', 'LED Projectors', 'LED DRLs + Fog', 'Panoramic sunroof'],
-                    'Interior': ['Twin 10.25" displays', 'Dual-zone AC', 'Rear climate vents', 'Leather steering'],
-                    'Safety': ['6 SRS Airbags', 'ABS + EBD', 'ESC', '360° Camera'],
-                    'Tech': ['Twin displays', 'Connected car tech', 'Alexa integration', 'USB-C + Wireless']
+                    'Features': ['R16 Diamond Cut Alloys','Twin 10.24 inch HD Infotainment','10.24 inch Digital Cluster Screen','Passive Keyless Entry','Push Button Start','6 Speakers','Rear View Camera','Leather Steering & Gear Knob','Online Navigation','Rear Wiper & Washer','Cruise Control','Wireless Android Auto','Wired Apple CarPlay','ORVM',],
+                    'Safety': ['6 SRS Airbags', 'ABS with EBD', 'ESC', 'ISOFIX anchors'],
+                    'Extra': ['R16 Diamond Cut Alloys','Twin 10.24 inch HD Infotainment','10.24 inch Digital Cluster Screen','Passive Keyless Entry','Push Button Start','6 Speakers','Rear View Camera','Leather Steering & Gear Knob','Online Navigation','Rear Wiper & Washer']
                 }
             },
+            
+            // VARIANT: AX5L
+            {
+                id: 'AX5L',
+                name: 'AX5L',
+                price: '₹10.85 - 12.95 Lakh',
+                engine: { type: '1.2L Turbo Petrol', power: '108 bhp', torque: '200 Nm', transmission: '6-MT/AT/AMT' },
+                features: {
+                    'Features': ['R16 Diamond Cut Alloys','Level 2 ADAS','360-degree Surround View System','Blind View Monitor',' Electronic Parking Brake with Auto Hold','Dolby Atmos','Twin 10.24 inch HD Infotainment','10.24 inch Digital Cluster Screen','Passive Keyless Entry','Push Button Start','6 Speakers','Rear View Camera','Leather Steering & Gear Knob','Online Navigation','Rear Wiper & Washer','Cruise Control','Wireless Android Auto','Wired Apple CarPlay','ORVM',],
+                    'Safety': ['6 SRS Airbags', 'ABS with EBD', 'ESC', 'ISOFIX anchors',],
+                    'Extra': ['Level 2 ADAS','360-degree Surround View System','Blind View Monitor',' Electronic Parking Brake with Auto Hold','Dolby Atmos']
+                }
+            },
+            
+            
             // VARIANT: AX7
             {
                 id: 'AX7',
@@ -241,10 +308,23 @@ const mahindraData = [
                 price: '₹13.00 - 14.55 Lakh',
                 engine: { type: '1.2L Turbo Petrol TGDi', power: '130 bhp', torque: '230 Nm', transmission: '6-MT/AT/AMT' },
                 features: {
-                    'Exterior': ['17" Premium alloys', 'LED Projectors', 'LED DRLs + Fog', 'Panoramic Skyroof'],
-                    'Interior': ['Twin 10.25" HD displays', 'Dual-zone auto AC', 'Leather seats', 'Ventilated front'],
-                    'Safety': ['6 SRS Airbags', 'ABS + EBD', 'Level 2 ADAS', '360° Camera'],
-                    'Tech': ['Twin HD displays', 'Harman Kardon audio', 'Wireless Android/Apple', '65W USB-C Fast']
+                    'Features': ['R17 Diamond Cut Alloys','Skyroof','Harman Kardon Premium Audio','Leatherette Seats','LED Front Fog Lamps','Soft touch Leatherette on Dashboard & Door Trims',,'Twin 10.24 inch HD Infotainment','10.24 inch Digital Cluster Screen','Passive Keyless Entry','Push Button Start','6 Speakers','Rear View Camera','Leather Steering & Gear Knob','Online Navigation','Rear Wiper & Washer','Cruise Control','Wireless Android Auto','Wired Apple CarPlay','ORVM',],
+                    'Safety': ['6 SRS Airbags', 'ABS with EBD', 'ESC', 'ISOFIX anchors'],
+                    'Extra': ['R17 Diamond Cut Alloys','Skyroof','Harman Kardon Premium Audio','Leatherette Seats','LED Front Fog Lamps','Soft touch Leatherette on Dashboard & Door Trims',]
+                }
+            },
+
+
+            // VARIANT: AX7L
+            {
+                id: 'AX7L',
+                name: 'AX7L',
+                price: '₹13.00 - 14.55 Lakh',
+                engine: { type: '1.2L Turbo Petrol TGDi', power: '130 bhp', torque: '230 Nm', transmission: '6-MT/AT/AMT' },
+                features: {
+                    'Features': ['R17 Diamond Cut Alloys','Level 2 ADAS','360-Degree Surround View','Blind View Monitor','Electronic Parking Brake with Auto Hold','Skyroof','Harman Kardon Premium Audio','Leatherette Seats','LED Front Fog Lamps','Soft touch Leatherette on Dashboard & Door Trims','Twin 10.24 inch HD Infotainment','10.24 inch Digital Cluster Screen','Passive Keyless Entry','Push Button Start','6 Speakers','Rear View Camera','Leather Steering & Gear Knob','Online Navigation','Rear Wiper & Washer','Cruise Control','Wireless Android Auto','Wired Apple CarPlay','ORVM'],
+                    'Safety': ['6 SRS Airbags', 'ABS with EBD', 'ESC', 'ISOFIX anchors'],
+                    'Extra': ['Level 2 ADAS','360-Degree Surround View','Blind View Monitor','Electronic Parking Brake with Auto Hold',]
                 }
             }
         ]
@@ -266,10 +346,8 @@ const mahindraData = [
                 price: '₹13.66 - 19.50 Lakh',
                 engine: { type: '2.0L Turbo Petrol', power: '200 bhp', torque: '380 Nm', transmission: '6-MT/AT' },
                 features: {
-                    'Exterior': ['18" Alloy wheels', 'LED Projector', 'LED DRLs', 'Panoramic Sunroof'],
-                    'Interior': ['11.2" Curved display', '7-Seater (2+3+2)', 'Premium leather', 'Dual-zone auto AC'],
+                    'Features': ['18" Alloy wheels', 'LED Projector', 'LED DRLs', 'Panoramic Sunroof'],
                     'Safety': ['7 SRS Airbags', 'ABS + EBD + TCS', 'ESC', '360° Camera'],
-                    'Tech': ['11.2" Curved display', 'AdrenoX connected', 'Wireless Android/Apple', 'Premium Bose audio']
                 }
             },
             // VARIANT: AWD
